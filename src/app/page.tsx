@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const HomePage = () => {
+const App = () => {
   return (
     <div className="bg-black bg-home-img bg-cover bg-center">
       <main className="flex flex-col justify-center text-center max-w-5xl mx-auto h-dvh">
@@ -25,4 +25,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default App;
